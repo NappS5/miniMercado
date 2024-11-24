@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Bungee+Spice&family=Quicksand:wght@300..700&display=swap');
+
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        background-color: #82ebf38a;
+    }
+
+    .carousel{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .carousel-item img {
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 600px;
+        flex-direction: column;
+
+    }
+
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .title-produto{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Anton SC", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #000000;
+        font-size: 25px;
+    }
+    .descricao-produto{
+        font-size: 20px;
+        color: orangered;
+        font-family: "Quicksand", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+    }
+
+    .servicos-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .descicao-servicos{
+        margin-left: 30px;
+    }
+
+    .formularios{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .escolha-servico{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 400px;
+        font-family: "Quicksand", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-size: 18px;
+    }
+
+    .escolha-data{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 400px;
+        font-family: "Quicksand", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-size: 18px;
+    }
+
+
+    #titulo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 50px;
+        font-family: "Bungee Spice", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-bottom: 15px;
+    }
+    #titulo-produtos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        font-family: "Bungee Spice", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    #titulo-servicos{
+        display: flex;
+        align-items: left;
+        justify-content: left;
+        margin-top: 55px;
+        margin-left: 10px;
+        font-family: "Bungee Spice", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    #servico1{
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+    #para-servico1{
+        color: green;
+        font-family: "Quicksand", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-size: 25px;
+        
+    }
+    #para-servico2{
+        color: green;
+        font-family: "Quicksand", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-size: 25px;
+        
+    }
+
+    #preco-servico2{
+        color: orangered;
+    }
+    #preco-servico1{
+        color: orangered;
+    }
+
+    #title-servico{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 35px;
+        font-family: "Bungee Spice", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    nav ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        gap: 1rem;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: #000000;
+        font-family: "Anton SC", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    footer {
+        text-align: center;
+        padding: 1rem 0;
+        background-color: #ff5100;
+        color: white;
+    }
+
+    .btn-primary {
+        background-color: #ffe600;
+        border: none;
+        color: #000000;
+        margin-bottom: 50px;
+    }
+
+    .btn-primary:hover {
+        background-color: #ff5100;
+    }
+
