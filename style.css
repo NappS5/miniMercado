@@ -20,6 +20,7 @@
         justify-content: center;
         height: 600px;
         flex-direction: column;
+        margin-bottom: 60px;
 
     }
 
@@ -89,6 +90,18 @@
         font-size: 18px;
     }
 
+    .titulo-desc-produto{
+        text-shadow: #000000;
+        margin-top: 90px;
+    }
+
+
+    #produtos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
 
     #titulo{
         display: flex;
